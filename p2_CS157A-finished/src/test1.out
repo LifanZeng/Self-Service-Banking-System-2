@@ -1,0 +1,248 @@
+:: PROGRAM START
+:: TEST - CONNECTING TO DATABASE
+:: TEST - SUCCESSFULLY CONNECTED TO DATABASE
+
+:: CREATE NEW CUSTOMER - RUNNING
+Your Customer ID is:
+100
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+Your Customer ID is:
+101
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+Your Customer ID is:
+102
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+Your Customer ID is:
+103
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+Your Customer ID is:
+104
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: CREATE NEW CUSTOMER - RUNNING
+Your Customer ID is:
+105
+:: CREATE NEW CUSTOMER - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1001,	25
+-----------------------------
+Name,	ID,	Total
+Pikachu,	101,	25
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1009,	5100
+1010,	8000
+1011,	7000
+-----------------------------
+Name,	ID,	Total
+Jenny,	105,	20100
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: DEPOSIT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1000,	110
+-----------------------------
+Name,	ID,	Total
+Ash,	100,	110
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: DEPOSIT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1001,	2500
+-----------------------------
+Name,	ID,	Total
+Pikachu,	101,	2500
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1002,	300
+1003,	10000
+-----------------------------
+Name,	ID,	Total
+Misty,	102,	10300
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1004,	1000
+1005,	6007
+-----------------------------
+Name,	ID,	Total
+Brock,	103,	7007
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1002,	300
+1003,	9500
+-----------------------------
+Name,	ID,	Total
+Misty,	102,	9800
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1006,	3000
+1007,	9500
+1008,	4500
+-----------------------------
+Name,	ID,	Total
+Joy,	104,	17000
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1009,	5100
+1010,	8000
+1011,	1000
+-----------------------------
+Name,	ID,	Total
+Jenny,	105,	14100
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1007,	9500
+1008,	4500
+-----------------------------
+Name,	ID,	Total
+Joy,	104,	14000
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+NUMBER,	BALANCE
+-----------------------------
+1009,	5100
+1010,	8000
+-----------------------------
+Name,	ID,	Total
+Jenny,	105,	13100
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: REPORT A - RUNNING
+ID	NAME	GENDER	AGE	TOTAL
+---------------------------------------------------------------------
+104	Joy	F	27	14000
+105	Jenny	F	30	13100
+102	Misty	F	12	9800
+103	Brock	M	17	7007
+101	Pikachu	M	25	2500
+100	Ash	M	10	110
+:: REPORT A - SUCCESS
+
+:: REPORT B - RUNNING
+AVERAGE
+--------------------------------------------
+	5639
+:: REPORT B - SUCCESS
+
+:: DEPOSIT - RUNNING
+Fail! The input are not numbers
+
+:: WITHDRAW - RUNNING
+Fail! The input are not numbers
+
+:: CREATE NEW CUSTOMER - RUNNING
+Fail! The input are not numbers
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+:: REPORT A - RUNNING
+ID	NAME	GENDER	AGE	TOTAL
+---------------------------------------------------------------------
+104	Joy	F	27	14000
+105	Jenny	F	30	13100
+102	Misty	F	12	9800
+103	Brock	M	17	7007
+101	Pikachu	M	25	2500
+100	Ash	M	10	110
+:: REPORT A - SUCCESS
+
+:: PROGRAM END
